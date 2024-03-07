@@ -1,10 +1,10 @@
 apiVersion: v1
-kind: PersistantVolumeClaim
+kind: PersistentVolumeClaim
 metadata:
   name: mssql-claim
 spec:
   accessModes:
-    - ReadWrtieMany
+    - ReadWriteMany
   resources:
     requests:
       storage: 200Mi
